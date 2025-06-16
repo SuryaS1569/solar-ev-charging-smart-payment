@@ -1,2 +1,24 @@
-# solar-ev-charging-smart-payment
-A smart EV charging system powered by solar energy with automatic switching to grid or battery backup. Includes a smart payment system via RFID/QR code and LCD interface. Designed for efficient, eco-friendly vehicle charging using microcontroller logic.
+# Solar-Powered EV Charging Infrastructure with Smart Payment System
+
+## 🔋 Project Description
+This project focuses on the design and implementation of a solar-powered EV charging station integrated with a smart payment system using QR code or RFID. It ensures power switching between solar, grid, and storage using a microcontroller.
+
+## 💡 Features
+- Solar energy utilization with backup grid power
+- Smart payment via RFID/QR code
+- Microcontroller-based switching logic
+- LCD Display for user interaction
+
+## 🧠 Technologies Used
+- Arduino UNO
+- Solar Panel
+- Battery Management System
+- RFID Module / QR scanner
+- LCD Display
+- Relays & Sensors
+
+## 🧪 How It Works
+1. When a user approaches with RFID/QR, authentication happens.
+2. If solar is available, it charges the EV.
+3. If not, it automatically switches to grid.
+4. Payment is tracked and displayed on LCD.
